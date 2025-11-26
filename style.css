@@ -1,0 +1,958 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body {
+  color: whitesmoke;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  flex-wrap: wrap;
+}
+
+span {
+  color: rgb(215, 155, 215);
+  font-size: 5rem;
+}
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+/* HEADER */
+/* HEADER */
+/* HEADER */
+
+.let {
+  /* background-color: aqua; */
+  /* display: flex; */
+  /* justify-content: left; */
+  margin-right: 100rem;
+  text-align: center;
+  align-items: center;
+  /* margin: 1rem; */
+  margin-left: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo-cont {
+  width: 20%;
+  display: flex;
+  justify-content: left;
+  margin-right: 29rem;
+  /* padding: 1rem; */
+}
+
+.logo-img2 {
+  width: 100%;
+  border-radius: 100px;
+  margin: 0.5rem;
+}
+
+.ul {
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 3rem;
+
+  /* margin: 1.2rem; */
+  font-size: 1.6rem;
+  /* background-color: aqua; */
+}
+
+.search-icon {
+  width: 3%;
+  margin-bottom: 1rem;
+}
+
+.nav-li {
+  color: #000000;
+  font-weight: 500;
+  display: flex;
+  float: right;
+  align-items: flex-end;
+  margin: 1.5rem;
+  margin-bottom: 3.5rem;
+  border-radius: 5px;
+  padding: 0.4rem;
+  border: 1px solid transparent;
+}
+
+.nav-li:hover {
+  border: 1px solid #041c4d;
+  color: #041c4d;
+  border-radius: 5px;
+}
+
+/* HERO */
+/* HERO */
+/* HERO */
+/* HERO */
+
+.hero-container {
+  text-align: center;
+  color: #041c4d;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  margin: 5rem;
+  margin-top: 8rem;
+}
+
+/* ABOUT HERO */
+/* ABOUT HERO */
+/* ABOUT HERO */
+/* ABOUT HERO */
+/* ABOUT HERO */
+
+.hero-h1-about {
+  font-size: 5rem;
+  padding: 15rem;
+  /* margin: 5rem; */
+  /* margin-left: 10rem; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: first baseline;
+  color: #eae4f0;
+  background-color: #041c4d;
+}
+
+/* CONTENTS */
+/* CONTENTS */
+/* CONTENTS */
+/* CONTENTS */
+/* CONTENTS */
+
+.contents {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
+  margin: 15rem;
+  gap: 2.2rem;
+  padding: 1rem;
+  margin-top: 10rem;
+  /* background-color: blue; */
+  border-radius: 24px;
+  height: 545vh;
+}
+
+/* ECOSYSTEMS >>> */
+/* ECOSYSTEMS >>> */
+/* ECOSYSTEMS >>> */
+/* ECOSYSTEMS >>> */
+/* ECOSYSTEMS >>> */
+/* ECOSYSTEMS >>> */
+/* ECOSYSTEMS >>> */
+
+.contents-ecosystems {
+  flex-wrap: wrap;
+  margin: 15rem;
+  gap: 2.2rem;
+  padding: 1rem;
+  margin-top: 10rem;
+  background-color: blue;
+  border-radius: 24px;
+}
+
+.hero-container-ecosystem {
+  /* background-color: aqua; */
+}
+
+.hero-h1-ecosystems {
+  font-size: 5rem;
+  padding: 15rem;
+  /* margin: 5rem; */
+  /* margin-left: 10rem; */
+  display: flex;
+  align-items: center;
+  justify-content: first baseline;
+  color: #eae4f0;
+  background-color: #041c4d;
+}
+
+/* FOR ABOUT GRID PAGE */
+/* FOR ABOUT GRID PAGE */
+/* FOR ABOUT GRID PAGE */
+/* FOR ABOUT GRID PAGE */
+/* FOR ABOUT GRID PAGE */
+/* FOR ABOUT GRID PAGE */
+
+.contents-about-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 15rem;
+  gap: 2.2rem;
+  padding: 1rem;
+  margin-top: 10rem;
+  border-radius: 24px;
+}
+
+.about-us-about-page-1 {
+  background-image: url("images/about us.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  height: 69vh;
+  color: #ffffff;
+  margin-top: 10rem;
+  flex-wrap: wrap;
+  left: 15%;
+  position: relative;
+}
+
+.about-us-about-page-2 {
+  background-image: url("images/about us.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  height: 75vh;
+  color: #ffffff;
+}
+.about-us-about-page-3 {
+  background-image: url("images/about us.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  height: 75vh;
+  color: #ffffff;
+}
+.about-us-about-page-4 {
+  background-image: url("images/about us.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  height: 75vh;
+  color: #ffffff;
+}
+
+.about-us {
+  background-image: url("images/abstract-networking-concept-still-life-arrangement.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  height: 75vh;
+  color: #ffffff;
+}
+
+.about-us-p {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  font-weight: 400;
+  /* background-color: red; */
+  /* width: 100%; */
+  margin: 1rem;
+  margin-top: 8rem;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  text-wrap: wrap;
+}
+
+/* MARKET CHART */
+/* MARKET CHART */
+/* MARKET CHART */
+/* MARKET CHART */
+/* MARKET CHART */
+/* MARKET CHART */
+
+.gold-chart-container {
+  max-width: 800px;
+  margin: auto;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+}
+/* ALLENSIO CARD */
+/* ALLENSIO CARD */
+/* ALLENSIO CARD */
+/* ALLENSIO CARD */
+/* ALLENSIO CARD */
+/* ALLENSIO CARD */
+/* ALLENSIO CARD */
+
+.about-us2 {
+  background-image: url("images/allensio logo1.svg");
+
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  height: 75vh;
+  color: #ffffff;
+}
+
+.allensio-h1 {
+  font-size: 2.7rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.about-us-p {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  font-weight: 400;
+  /* background-color: red; */
+  /* width: 100%; */
+  margin: 1rem;
+  margin-top: 8rem;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  text-wrap: wrap;
+}
+
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33rem;
+}
+
+.sign-up-btn {
+  background-color: rgb(215, 155, 215);
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.login-btn {
+  background-color: #eae4f0;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+/* IMPACT */
+/* IMPACT */
+/* IMPACT */
+/* IMPACT */
+/* IMPACT */
+/* IMPACT */
+/* IMPACT */
+/* IMPACT */
+
+.about-us3 {
+  background-image: url("images/courage-man-jump-through-gap-hill-business-concept-idea.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  color: #eae4f0;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  height: 100vh;
+  color: #ffffff;
+  margin-top: 5rem;
+  bottom: 30%;
+  position: relative;
+}
+
+/* ALLENSIO PROGRAMMES */
+/* ALLENSIO PROGRAMMES */
+/* ALLENSIO PROGRAMMES */
+/* ALLENSIO PROGRAMMES */
+/* ALLENSIO PROGRAMMES */
+/* ALLENSIO PROGRAMMES */
+/* ALLENSIO PROGRAMMES */
+/* ALLENSIO PROGRAMMES */
+
+.about-programmes {
+  background-image: url("images/medium-shot-business-people-discussing.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  color: #eae4f0;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  height: 100vh;
+  color: #ffffff;
+  margin-top: 5rem;
+  bottom: 30%;
+  position: relative;
+}
+
+/* HACKATHON */
+/* HACKATHON */
+/* HACKATHON */
+/* HACKATHON */
+/* HACKATHON */
+/* HACKATHON */
+/* HACKATHON */
+/* HACKATHON */
+
+.about-hack {
+  background-image: url("images/hack.jpg.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  color: #eae4f0;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  height: 100vh;
+  color: #ffffff;
+  margin-top: 5rem;
+  bottom: 30%;
+  position: relative;
+}
+
+.about-technology {
+  background-image: url("images/tech-poster.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  color: #eae4f0;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  height: 100vh;
+  color: #ffffff;
+  margin-top: 5rem;
+  bottom: 30%;
+  position: relative;
+}
+
+.about-us-img {
+  width: 40%;
+}
+
+.about-us-h3 {
+  font-size: 2.5rem;
+  margin: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.small-rt-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+/* TAXAR CARD */
+/* TAXAR CARD */
+/* TAXAR CARD */
+/* TAXAR CARD */
+/* TAXAR CARD */
+/* TAXAR CARD */
+/* TAXAR CARD */
+
+.card-links {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-links:hover {
+  color: #eae4f0;
+}
+
+.taxar-card {
+  background-color: aqua;
+  height: 45vh;
+  border-radius: 11px;
+  position: relative;
+}
+
+.taxar-p {
+  font-size: 3.5rem;
+  margin: 1rem;
+  font-weight: 400;
+}
+
+.taxar-img {
+  width: 100%;
+  margin-top: 4rem;
+  padding: 1rem;
+  /* margin: 1rem; */
+}
+/* ADDORNA CARD */
+/* ADDORNA CARD */
+/* ADDORNA CARD */
+/* ADDORNA CARD */
+/* ADDORNA CARD */
+/* ADDORNA CARD */
+/* ADDORNA CARD */
+
+.addorna-card {
+  background-color: burlywood;
+  height: 45vh;
+  border-radius: 11px;
+  position: relative;
+}
+
+.addorna-p {
+  font-size: 3.5rem;
+  margin: 1rem;
+  font-weight: 400;
+}
+
+.addorna-img {
+  width: 60%;
+  display: flex;
+  align-content: center;
+
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 1rem;
+}
+
+/* OPINION CARD */
+/* OPINION CARD */
+/* OPINION CARD */
+/* OPINION CARD */
+/* OPINION CARD */
+/* OPINION CARD */
+/* OPINION CARD */
+
+.ceo-card {
+  background-color: #efbdefff;
+  height: 40vh;
+  border-radius: 11px;
+}
+
+.ceo-h1 {
+  font-size: 1.9rem;
+  font-weight: 400;
+  float: left;
+  margin: 1.5rem;
+  color: #eae4f0;
+}
+
+.ceo-p {
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  text-wrap: wrap;
+
+  margin: 8rem 10rem;
+}
+
+.podcast-card {
+  background-color: burlywood;
+  background-image: url("images/podcast.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  height: 40vh;
+  border-radius: 11px;
+  bottom: 48%;
+  position: relative;
+}
+
+.podcast-h1 {
+  font-size: 1.9rem;
+  font-weight: 400;
+  float: left;
+  margin: 1.5rem;
+  color: #eae4f0;
+}
+
+.news-about-taxar {
+  background-image: url("images/WhatsApp\ Image\ 2025-11-14\ at\ 19.08.55_7d08b5f0.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  height: 40vh;
+  border-radius: 11px;
+  bottom: 39%;
+  left: 107%;
+  position: relative;
+}
+
+.taxar-link {
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #eae4f0;
+  margin: 1rem;
+}
+
+/* TECHNOLOGY CARD */
+/* TECHNOLOGY CARD */
+/* TECHNOLOGY CARD */
+/* TECHNOLOGY CARD */
+/* TECHNOLOGY CARD */
+/* TECHNOLOGY CARD */
+/* TECHNOLOGY CARD */
+/* TECHNOLOGY CARD */
+
+.technology-card {
+  background-image: url("images/virtual-programming-with-vr-glasses.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #041c4d;
+
+  padding: 1rem;
+  color: #ffffff;
+  margin-top: 5rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  position: relative;
+  height: 40vh;
+  border-radius: 11px;
+  bottom: 50%;
+  transition: box-shadow 0.3s ease;
+}
+
+.technology-card:hover {
+  box-shadow: 0 0 1px 1px #041c4d, 0 0 15px 5px #041c4d;
+}
+
+/* EDUCATION CARD */
+/* EDUCATION CARD */
+/* EDUCATION CARD */
+/* EDUCATION CARD */
+/* EDUCATION CARD */
+/* EDUCATION CARD */
+/* EDUCATION CARD */
+/* EDUCATION CARD */
+/* EDUCATION CARD */
+/* EDUCATION CARD */
+/* EDUCATION CARD */
+
+.education-card {
+  background-image: url("images/diversity-group-students-using-laptop-books.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  font-size: 1.8rem;
+  border: 1px solid #041c4d;
+
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 5rem;
+  height: 40vh;
+  border-radius: 11px;
+  bottom: 50%;
+  position: relative;
+}
+
+.education-card:hover {
+  box-shadow: 0 0 1px 1px #041c4d, 0 0 15px 5px #041c4d;
+}
+
+/* TRANSPORT CARD */
+/* TRANSPORT CARD */
+/* TRANSPORT CARD */
+/* TRANSPORT CARD */
+/* TRANSPORT CARD */
+/* TRANSPORT CARD */
+/* TRANSPORT CARD */
+/* TRANSPORT CARD */
+/* TRANSPORT CARD */
+/* TRANSPORT CARD */
+
+.transport-card {
+  background-image: url("images/scene-with-photorealistic-logistics-operations-proceedings.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #041c4d;
+
+  padding: 0.3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 5rem;
+  height: 40vh;
+  border-radius: 11px;
+  bottom: 50%;
+  position: relative;
+}
+
+.transport-card:hover {
+  box-shadow: 0 0 1px 1px #041c4d, 0 0 15px 5px #041c4d;
+}
+
+/* PROPERTY CARD */
+/* PROPERTY CARD */
+/* PROPERTY CARD */
+/* PROPERTY CARD */
+/* PROPERTY CARD */
+/* PROPERTY CARD */
+/* PROPERTY CARD */
+/* PROPERTY CARD */
+
+.property-card {
+  background-image: url("images/property.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #041c4d;
+  padding: 0.3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #efbdefff;
+  margin-top: 5rem;
+  height: 40vh;
+  border-radius: 11px;
+  bottom: 50%;
+  position: relative;
+}
+
+.property-card:hover {
+  box-shadow: 0 0 1px 1px #041c4d, 0 0 15px 5px #041c4d;
+}
+
+.female-leader {
+  background-image: url("images/close-up-business-woman-smiling.jpg");
+
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  flex-wrap: wrap;
+  height: 90vh;
+  color: #ffffff;
+  margin-top: 10rem;
+  bottom: 15%;
+  position: relative;
+}
+
+.female-h3 {
+  font-size: 2.5rem;
+  margin: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.female-p {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  font-weight: 400;
+  background-color: #efbdefff;
+  opacity: 60%;
+  color: #041c4d;
+  /* width: 100%; */
+  margin: 1rem;
+  margin-top: 25rem;
+  border-radius: 22px;
+  font-size: 2rem;
+  line-height: 1.7;
+  text-wrap: wrap;
+}
+
+.about-us5 {
+  background-image: url("images/about us.jpg");
+
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  padding: 0.3rem;
+  height: 90vh;
+  color: #ffffff;
+  margin-top: 10rem;
+  bottom: 15%;
+  position: relative;
+  text-wrap: wrap;
+}
+
+.news-from-taxar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url(images/allensio\ background.svg);
+  gap: 2rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.p-news-taxar {
+  font-size: 2.2rem;
+  padding: 1rem;
+  text-wrap: wrap;
+  color: #eae4f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-list {
+  font-size: 2.2rem;
+  color: #eae4f0;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-list:hover {
+  text-decoration: underline;
+}
+
+.footer-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #041c4d;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 10rem;
+  padding: 1.1rem;
+}
+
+.logo-img {
+  width: 40%;
+  border-radius: 100px;
+}
+
+.footer-h3 {
+  font-size: 2.1rem;
+  color: #eae4f0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.link {
+  list-style: none;
+  margin-top: 1.1rem;
+  font-size: 1.5rem;
+}
+.link:hover {
+  text-decoration-line: underline;
+  color: rgb(222, 181, 188);
+}
+
+.rt-div-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+}
+
+.rt-div-img {
+  width: 60%;
+  /* background-color: aquamarine; */
+  height: 33vh;
+  border-radius: 24px;
+  margin-top: 1.1rem;
+  margin-left: 8rem;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.h1-rt-footer {
+  font-size: 3.8rem;
+  font-weight: 400;
+  color: #eae4f0;
+  line-height: 1.2;
+  margin-top: 10rem;
+  text-wrap: wrap;
+}
+
+.report-link {
+  margin-top: 2rem;
+  font-size: 2.1rem;
+  font-weight: 500;
+  list-style: none;
+  color: #eae4f0;
+}
+
+.report-link:hover {
+  color: rgb(222, 181, 188);
+  text-decoration: underline;
+}
+
+.h4-follow-us {
+  margin: 1.5rem;
+  font-size: 3.2rem;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.socials-list {
+  list-style: none;
+  margin: 1rem;
+  margin-top: 2.4rem;
+}
+
+.fa-youtube {
+  font-size: 3rem;
+  margin: 1rem;
+  align-content: center;
+}
+
+.fa-youtube:hover {
+  color: red;
+}
+
+.fa-facebook {
+  font-size: 2.9rem;
+  margin: 1rem;
+  align-content: center;
+}
+
+.fa-facebook:hover {
+  color: blue;
+}
+
+.fa-x-twitter {
+  font-size: 2.9rem;
+  margin: 1rem;
+  align-content: center;
+}
+
+.fa-x-twitter:hover {
+  color: black;
+}
+
+.fa-whatsapp {
+  font-size: 2.9rem;
+  margin: 1rem;
+  align-content: center;
+}
+
+.fa-whatsapp:hover {
+  color: green;
+}
+
+.fa-linkedin-in {
+  font-size: 2.9rem;
+  margin: 1rem;
+  align-content: center;
+}

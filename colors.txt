@@ -1,0 +1,11 @@
+#FFFFFF page color and text color
+
+#041C4D = text color on white
+
+#F2EBF0   {
+
+#EAE4F0      this on  #041C4D
+
+#efbdefff    }
+
+H1 font size 1.5rem
